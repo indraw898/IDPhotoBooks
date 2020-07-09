@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Registrasi,Chrome 83.0.4103.116,,,2020-07-08 21:12:50,2020-07-08 21:14:51,2m - 0.915s,FAILED
+,,,,,,,
+Test Cases/Register/Register_Positif,Chrome 83.0.4103.116,,,2020-07-08 21:12:50,2020-07-08 21:13:24,33.875s,PASSED
+"SetCreateFolder = ""IDPhotoBooks""",Chrome 83.0.4103.116,,,2020-07-08 21:12:51,2020-07-08 21:12:51,0.169s,PASSED
+"SetSeparate = ""CallCreateSubFolder""",Chrome 83.0.4103.116,,,2020-07-08 21:12:51,2020-07-08 21:12:51,0.000s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Separate""), null)",Chrome 83.0.4103.116,,,2020-07-08 21:12:51,2020-07-08 21:12:52,0.711s,PASSED
+"openBrowser(findTestData(""URL/URL"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-08 21:12:52,2020-07-08 21:13:00,8.100s,PASSED
+maximizeWindow(),Chrome 83.0.4103.116,,,2020-07-08 21:13:00,2020-07-08 21:13:02,2.177s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Registrasi/Reg_Positif"").getRowNumbers(), (rowNum++)])",Chrome 83.0.4103.116,,,2020-07-08 21:13:02,2020-07-08 21:13:24,21.826s,PASSED
+closeBrowser(),Chrome 83.0.4103.116,,,2020-07-08 21:13:24,2020-07-08 21:13:24,0.625s,PASSED
+,,,,,,,
+Test Cases/Register/Register_Negatif,Chrome 83.0.4103.116,,,2020-07-08 21:13:24,2020-07-08 21:14:51,1m - 26.880s,FAILED
+"SetCreateFolder = ""IDPhotoBooks""",Chrome 83.0.4103.116,,,2020-07-08 21:13:24,2020-07-08 21:13:24,0.001s,PASSED
+"SetSeparate = ""CallCreateSubFolder""",Chrome 83.0.4103.116,,,2020-07-08 21:13:24,2020-07-08 21:13:24,0.000s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Separate""), null)",Chrome 83.0.4103.116,,,2020-07-08 21:13:24,2020-07-08 21:13:25,0.177s,PASSED
+"openBrowser(findTestData(""URL/URL"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-08 21:13:25,2020-07-08 21:13:32,7.803s,PASSED
+maximizeWindow(),Chrome 83.0.4103.116,,,2020-07-08 21:13:32,2020-07-08 21:13:35,2.179s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-08 21:13:35,2020-07-08 21:13:36,1.646s,PASSED
+"click(findTestObject(""Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun""))",Chrome 83.0.4103.116,,,2020-07-08 21:13:36,2020-07-08 21:13:37,0.309s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-08 21:13:37,2020-07-08 21:13:38,1.630s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-08 21:13:38,2020-07-08 21:13:39,1.218s,PASSED
+"scrollToElement(findTestObject(""Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar""), 3, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-08 21:13:39,2020-07-08 21:13:40,0.475s,PASSED
+"click(findTestObject(""Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar""))",Chrome 83.0.4103.116,,,2020-07-08 21:13:40,2020-07-08 21:13:40,0.334s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-08 21:13:40,2020-07-08 21:13:42,1.597s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Registrasi/Reg_Negatif"").getRowNumbers(), (rowNum++)])",Chrome 83.0.4103.116,,,2020-07-08 21:13:42,2020-07-08 21:14:51,1m - 8.772s,FAILED
+closeBrowser(),Chrome 83.0.4103.116,,,2020-07-08 21:14:51,2020-07-08 21:14:51,0.622s,PASSED

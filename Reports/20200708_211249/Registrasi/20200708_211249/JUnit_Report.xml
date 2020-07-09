@@ -1,0 +1,2487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Registrasi" time="121.296" tests="2" failures="1" errors="0">
+   <testsuite name="Registrasi" tests="2" failures="1" errors="0" time="121.296" timestamp="2020-07-08 21:12:50" hostname="user - LAPTOP-3DL54A4U" id="Test Suites/Registrasi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test IPB\\Reports\\20200708_211249\\Registrasi\\20200708_211249"/>
+         <property name="logFiles" value="D:\\Test IPB\\Reports\\20200708_211249\\Registrasi\\20200708_211249\\execution0.log"/>
+         <property name="attachments" value="D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091304_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091306_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091310_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091314_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091318_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091321_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Positif_9\\080720091336_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Positif_9\\080720091338_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Positif_9\\080720091341_Registration_Positif_9.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_1\\080720091346_Registration_Negatif_1.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_1\\080720091350_Registration_Negatif_1.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_2\\080720091355_Registration_Negatif_2.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_2\\080720091358_Registration_Negatif_2.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_3\\080720091403_Registration_Negatif_3.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_3\\080720091407_Registration_Negatif_3.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_4\\080720091412_Registration_Negatif_4.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_4\\080720091415_Registration_Negatif_4.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_5\\080720091420_Registration_Negatif_5.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_5\\080720091424_Registration_Negatif_5.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_6\\080720091429_Registration_Negatif_6.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_6\\080720091432_Registration_Negatif_6.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_7\\080720091437_Registration_Negatif_7.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_7\\080720091441_Registration_Negatif_7_Failed.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_8\\080720091445_Registration_Negatif_8_Failed.png, D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_8\\080720091449_Registration_Negatif_8_Failed.png"/>
+         <property name="hostName" value="user - LAPTOP-3DL54A4U"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.10.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.43.228"/>
+         <property name="sessionId" value="27ce8222917140f058856e1c3c650a66"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/Register_Positif" time="33.875" classname="Test Cases/Register/Register_Positif" status="PASSED">
+         <system-out><![CDATA[2020-07-08 21:12:50 - [TEST_CASE][PASSED] - Test Cases/Register/Register_Positif: Test Cases/Register/Register_Positif
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - SetCreateFolder = "IDPhotoBooks": null
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - SetSeparate = "CallCreateSubFolder": null
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Separate"), null): Call Test Case 'Test Cases/Services/SVC_Separate' successfully
+
+2020-07-08 21:12:51 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Separate: Test Cases/Services/SVC_Separate
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - if (SetSeparate == "CallCreateSubFolder"): Call Test Case 'Test Cases/Services/SVC_Create Sub Folder' successfully
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Create Folder"), null): Call Test Case 'Test Cases/Services/SVC_Create Folder' successfully
+
+2020-07-08 21:12:51 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Create Folder: Test Cases/Services/SVC_Create Folder
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - path = Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder): null
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - if (!(Files.exists(path))): null
+
+2020-07-08 21:12:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Create Folder' successfully
+
+2020-07-08 21:12:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Create Sub Folder"), null): Call Test Case 'Test Cases/Services/SVC_Create Sub Folder' successfully
+
+2020-07-08 21:12:51 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Create Sub Folder: Test Cases/Services/SVC_Create Sub Folder
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - x = 1: null
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - subpath = Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x): null
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - if (!(Files.notExists(subpath))): null
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - else: null
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - Files.createDirectories(Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x)): null
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - setsubpath = Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x): null
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - SetPathCapture = setsubpath: null
+
+2020-07-08 21:12:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Create Sub Folder' successfully
+
+2020-07-08 21:12:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Separate' successfully
+
+2020-07-08 21:12:52 - [TEST_STEP][PASSED] - openBrowser(findTestData("URL/URL").getValue(1, 1)): Browser is opened with url: 'https://embrio.idphotobook.com/ '
+
+2020-07-08 21:12:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-08 21:12:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-08 21:13:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://embrio.idphotobook.com/ '
+
+2020-07-08 21:13:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-08 21:13:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - for ([rowNum = 1, rowNum <= findTestData("Registrasi/Reg_Positif").getRowNumbers(), (rowNum++)]): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:02 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:03 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:03 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:03 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Positif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:13:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:03 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:03 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:04 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091304_Registration_Positif_9.png]]
+
+2020-07-08 21:13:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun")): Object: 'Object Repository/Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun' is clicked on
+
+2020-07-08 21:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun' is clicked on
+
+2020-07-08 21:13:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:05 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:05 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:06 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091306_Registration_Positif_9.png]]
+
+2020-07-08 21:13:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:07 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:13:08 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:13:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar"), 3, STOP_ON_FAILURE): Scroll to object 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' successfully
+
+2020-07-08 21:13:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' successfully
+
+2020-07-08 21:13:08 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' is clicked on
+
+2020-07-08 21:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' is clicked on
+
+2020-07-08 21:13:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:09 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:09 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091310_Registration_Positif_9.png]]
+
+2020-07-08 21:13:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:10 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:13:11 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Positif").getValue("Nama", rowNum)): Text 'Indrawan sembilan' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:13:12 - [MESSAGE][PASSED] - Text 'Indrawan sembilan' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:13:12 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Positif").getValue("WhatsApp", rowNum)): Text '08123459999' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:13:12 - [MESSAGE][PASSED] - Text '08123459999' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:13:12 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Positif").getValue("Email", rowNum)): Text 'indraw9@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:13:13 - [MESSAGE][PASSED] - Text 'indraw9@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:13:13 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Positif").getValue("Password", rowNum)): Text 'indraw9' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:13:13 - [MESSAGE][PASSED] - Text 'indraw9' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:13:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:13 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:13 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:14 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091314_Registration_Positif_9.png]]
+
+2020-07-08 21:13:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:15 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:13:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-07-08 21:13:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-07-08 21:13:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:17 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:17 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:18 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091318_Registration_Positif_9.png]]
+
+2020-07-08 21:13:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:19 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextPresent(findTestData("Registrasi/Reg_Positif").getValue("Nama", rowNum), true, CONTINUE_ON_FAILURE): Text 'Indrawan sembilan' is present on page  using regular expression
+
+2020-07-08 21:13:19 - [MESSAGE][PASSED] - Text 'Indrawan sembilan' is present on page  using regular expression
+
+2020-07-08 21:13:19 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextPresent(findTestData("Registrasi/Reg_Positif").getValue("WhatsApp", rowNum), true, CONTINUE_ON_FAILURE): Text '08123459999' is present on page  using regular expression
+
+2020-07-08 21:13:20 - [MESSAGE][PASSED] - Text '08123459999' is present on page  using regular expression
+
+2020-07-08 21:13:20 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextPresent(findTestData("Registrasi/Reg_Positif").getValue("Email", rowNum), true, CONTINUE_ON_FAILURE): Text 'indraw9@gmail.com' is present on page  using regular expression
+
+2020-07-08 21:13:20 - [MESSAGE][PASSED] - Text 'indraw9@gmail.com' is present on page  using regular expression
+
+2020-07-08 21:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Akun  IDPhotobook/button_Keluar")): Object: 'Object Repository/Registrasi/Register Positif/Page_Akun  IDPhotobook/button_Keluar' is clicked on
+
+2020-07-08 21:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Akun  IDPhotobook/button_Keluar' is clicked on
+
+2020-07-08 21:13:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:20 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:20 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:21 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_1\\Registration_Positif_9\\080720091321_Registration_Positif_9.png]]
+
+2020-07-08 21:13:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:22 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:23 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Positif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-08 21:13:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Register_Negatif" time="86.88" classname="Test Cases/Register/Register_Negatif" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/Register_Negatif FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	... 23 more
+"/>
+         <system-out><![CDATA[2020-07-08 21:13:24 - [TEST_CASE][FAILED] - Test Cases/Register/Register_Negatif: Test Cases/Register/Register_Negatif FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	... 23 more
+
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - SetCreateFolder = "IDPhotoBooks": null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - SetSeparate = "CallCreateSubFolder": null
+
+2020-07-08 21:13:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Separate"), null): Call Test Case 'Test Cases/Services/SVC_Separate' successfully
+
+2020-07-08 21:13:25 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Separate: Test Cases/Services/SVC_Separate
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - if (SetSeparate == "CallCreateSubFolder"): Call Test Case 'Test Cases/Services/SVC_Create Sub Folder' successfully
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Create Folder"), null): Call Test Case 'Test Cases/Services/SVC_Create Folder' successfully
+
+2020-07-08 21:13:25 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Create Folder: Test Cases/Services/SVC_Create Folder
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - path = Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - if (!(Files.exists(path))): null
+
+2020-07-08 21:13:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Create Folder' successfully
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Create Sub Folder"), null): Call Test Case 'Test Cases/Services/SVC_Create Sub Folder' successfully
+
+2020-07-08 21:13:25 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Create Sub Folder: Test Cases/Services/SVC_Create Sub Folder
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - x = 1: null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - subpath = Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - if (!(Files.notExists(subpath))): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - while (!(Files.notExists(subpath))): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - if (!(Files.exists(Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x)))): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - x += 1: null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - if (!(Files.exists(Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x)))): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - Files.createDirectories(Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x)): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - break: null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - setsubpath = Paths.get("D://Test IPB//Result" + "//" + SetCreateFolder + "//Run_" + x): null
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - SetPathCapture = setsubpath: null
+
+2020-07-08 21:13:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Create Sub Folder' successfully
+
+2020-07-08 21:13:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Separate' successfully
+
+2020-07-08 21:13:25 - [TEST_STEP][PASSED] - openBrowser(findTestData("URL/URL").getValue(1, 1)): Browser is opened with url: 'https://embrio.idphotobook.com/ '
+
+2020-07-08 21:13:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-08 21:13:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-08 21:13:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://embrio.idphotobook.com/ '
+
+2020-07-08 21:13:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-08 21:13:35 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-08 21:13:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:35 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:35 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Positif_9\\080720091336_Registration_Positif_9.png]]
+
+2020-07-08 21:13:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun")): Object: 'Object Repository/Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun' is clicked on
+
+2020-07-08 21:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Home  IDPhotobook/div_Akun' is clicked on
+
+2020-07-08 21:13:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:37 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:37 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Positif_9\\080720091338_Registration_Positif_9.png]]
+
+2020-07-08 21:13:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:38 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:13:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:13:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar"), 3, STOP_ON_FAILURE): Scroll to object 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' successfully
+
+2020-07-08 21:13:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' successfully
+
+2020-07-08 21:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' is clicked on
+
+2020-07-08 21:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar' is clicked on
+
+2020-07-08 21:13:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:40 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:40 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:41 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Positif_9\\080720091341_Registration_Positif_9.png]]
+
+2020-07-08 21:13:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:42 - [TEST_STEP][FAILED] - for ([rowNum = 1, rowNum <= findTestData("Registrasi/Reg_Negatif").getRowNumbers(), (rowNum++)]): null
+
+2020-07-08 21:13:42 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:42 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:13:42 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:13:43 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:13:43 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text '_' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:13:43 - [MESSAGE][PASSED] - Text '_' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:13:43 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '08654658787654' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:13:44 - [MESSAGE][PASSED] - Text '08654658787654' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw7854@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:13:44 - [MESSAGE][PASSED] - Text 'indraw7854@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indraw1' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:13:45 - [MESSAGE][PASSED] - Text 'indraw1' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:13:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:45 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:45 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:46 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_1\\080720091346_Registration_Negatif_1.png]]
+
+2020-07-08 21:13:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:47 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:13:47 - [MESSAGE][PASSED] - Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:13:47 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:13:47 - [MESSAGE][FAILED] - Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:13:47 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:13:48 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:13:48 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:13:48 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:13:48 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:13:48 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:13:48 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:13:49 - [MESSAGE][PASSED] - Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:13:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:49 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:49 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_1\\080720091350_Registration_Negatif_1.png]]
+
+2020-07-08 21:13:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:50 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:13:50 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:13:51 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan1' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:13:51 - [MESSAGE][PASSED] - Text 'Indrawan1' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '0812345222' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:13:52 - [MESSAGE][PASSED] - Text '0812345222' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw2@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:13:53 - [MESSAGE][PASSED] - Text 'indraw2@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indraw2' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:13:53 - [MESSAGE][PASSED] - Text 'indraw2' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:13:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:54 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:54 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_2\\080720091355_Registration_Negatif_2.png]]
+
+2020-07-08 21:13:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:55 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:13:56 - [MESSAGE][PASSED] - Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:13:56 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:13:56 - [MESSAGE][FAILED] - Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:13:56 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:13:56 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:13:56 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:13:56 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:13:56 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:13:57 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:13:57 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:13:57 - [MESSAGE][PASSED] - Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:13:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:57 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:13:57 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:13:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:13:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_2\\080720091358_Registration_Negatif_2.png]]
+
+2020-07-08 21:13:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:13:58 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:13:58 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:13:59 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan tiga' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:00 - [MESSAGE][PASSED] - Text 'Indrawan tiga' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '085721576989' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:00 - [MESSAGE][PASSED] - Text '085721576989' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw3@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:01 - [MESSAGE][PASSED] - Text 'indraw3@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indraw3' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:01 - [MESSAGE][PASSED] - Text 'indraw3' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:02 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:02 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:03 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_3\\080720091403_Registration_Negatif_3.png]]
+
+2020-07-08 21:14:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:04 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'No. Whatsapp / Email telah terdaftar' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:04 - [MESSAGE][FAILED] - Text 'No. Whatsapp / Email telah terdaftar' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'No. Whatsapp / Email telah terdaftar' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:04 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:04 - [MESSAGE][PASSED] - Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:04 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:05 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:05 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:05 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:05 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:05 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:05 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:06 - [MESSAGE][PASSED] - Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:06 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:06 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_3\\080720091407_Registration_Negatif_3.png]]
+
+2020-07-08 21:14:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:07 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:14:07 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:14:08 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:14:08 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan empat' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:09 - [MESSAGE][PASSED] - Text 'Indrawan empat' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:09 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '081324a54876' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:09 - [MESSAGE][PASSED] - Text '081324a54876' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:09 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw4@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:10 - [MESSAGE][PASSED] - Text 'indraw4@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indraw4' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:10 - [MESSAGE][PASSED] - Text 'indraw4' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:11 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:11 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_4\\080720091412_Registration_Negatif_4.png]]
+
+2020-07-08 21:14:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:12 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:13 - [MESSAGE][PASSED] - Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:13 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:13 - [MESSAGE][PASSED] - Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:13 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nomor WhatsApp harus berupa angka' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:13 - [MESSAGE][FAILED] - Text 'Nomor WhatsApp harus berupa angka' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nomor WhatsApp harus berupa angka' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:13 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:13 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:13 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:14 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:14 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:14 - [MESSAGE][PASSED] - Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:14 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:14 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:15 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_4\\080720091415_Registration_Negatif_4.png]]
+
+2020-07-08 21:14:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:16 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:16 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:14:16 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:14:16 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:14:16 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan lima' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:17 - [MESSAGE][PASSED] - Text 'Indrawan lima' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '0812345555' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:17 - [MESSAGE][PASSED] - Text '0812345555' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw1@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:18 - [MESSAGE][PASSED] - Text 'indraw1@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indraw5' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:19 - [MESSAGE][PASSED] - Text 'indraw5' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:19 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:19 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:20 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_5\\080720091420_Registration_Negatif_5.png]]
+
+2020-07-08 21:14:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:21 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'No. Whatsapp / Email telah terdaftar' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:21 - [MESSAGE][FAILED] - Text 'No. Whatsapp / Email telah terdaftar' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'No. Whatsapp / Email telah terdaftar' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:92)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:21 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:21 - [MESSAGE][PASSED] - Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:21 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:22 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:22 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:22 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:22 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:23 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:23 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:23 - [MESSAGE][PASSED] - Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:23 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:23 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:24 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_5\\080720091424_Registration_Negatif_5.png]]
+
+2020-07-08 21:14:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:25 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:25 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:14:25 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:14:25 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:14:25 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan enam' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:26 - [MESSAGE][PASSED] - Text 'Indrawan enam' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '08123456666' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:26 - [MESSAGE][PASSED] - Text '08123456666' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw6gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:27 - [MESSAGE][PASSED] - Text 'indraw6gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:27 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indraw6' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:28 - [MESSAGE][PASSED] - Text 'indraw6' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:28 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:28 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:29 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_6\\080720091429_Registration_Negatif_6.png]]
+
+2020-07-08 21:14:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:30 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:30 - [MESSAGE][PASSED] - Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:30 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:30 - [MESSAGE][PASSED] - Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:30 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:30 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:30 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:31 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:31 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Format email salah' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:31 - [MESSAGE][FAILED] - Text 'Format email salah' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Format email salah' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:100)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:31 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:31 - [MESSAGE][PASSED] - Text 'Password minimal 6 karakter' is not present on page
+
+2020-07-08 21:14:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:31 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:31 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:32 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_6\\080720091432_Registration_Negatif_6.png]]
+
+2020-07-08 21:14:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:33 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:33 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:14:33 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:14:34 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan tujuh' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:34 - [MESSAGE][PASSED] - Text 'Indrawan tujuh' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '08123457777' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:35 - [MESSAGE][PASSED] - Text '08123457777' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw7@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:35 - [MESSAGE][PASSED] - Text 'indraw7@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text 'indra' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:36 - [MESSAGE][PASSED] - Text 'indra' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:36 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:36 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - if (VerifyCheck == true): Taking screenshot successfully
+
+2020-07-08 21:14:37 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + ".png"): Taking screenshot successfully
+
+2020-07-08 21:14:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_7\\080720091437_Registration_Negatif_7.png]]
+
+2020-07-08 21:14:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:38 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:38 - [MESSAGE][PASSED] - Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:38 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:38 - [MESSAGE][PASSED] - Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:38 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:39 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:39 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:39 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:39 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:39 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:39 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Password minimal 6 karakter' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:39 - [MESSAGE][FAILED] - Text 'Password minimal 6 karakter' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Password minimal 6 karakter' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:40 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:40 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - if (VerifyCheck == true): null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - else if (VerifyCheck == false): Taking screenshot successfully
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + "_Failed.png"): Taking screenshot successfully
+
+2020-07-08 21:14:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_7\\080720091441_Registration_Negatif_7_Failed.png]]
+
+2020-07-08 21:14:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:41 - [TEST_STEP][FAILED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - SetTestScriptID = findTestData("Registrasi/Reg_Negatif").getValue("SCRIPT ID", rowNum): null
+
+2020-07-08 21:14:41 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-07-08 21:14:42 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-07-08 21:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0"), findTestData("Registrasi/Reg_Negatif").getValue("Nama", rowNum)): Text 'Indrawan delapan' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:42 - [MESSAGE][PASSED] - Text 'Indrawan delapan' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Daftar_mat-input-0'
+
+2020-07-08 21:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1"), findTestData("Registrasi/Reg_Negatif").getValue("WhatsApp", rowNum)): Text '08123458888' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:43 - [MESSAGE][PASSED] - Text '08123458888' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nama Lengkap_mat-input-1'
+
+2020-07-08 21:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2"), findTestData("Registrasi/Reg_Negatif").getValue("Email", rowNum)): Text 'indraw8@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:44 - [MESSAGE][PASSED] - Text 'indraw8@gmail.com' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_Nomor WhatsApp_mat-input-2'
+
+2020-07-08 21:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3"), findTestData("Registrasi/Reg_Negatif").getValue("Password", rowNum)): Text '99999' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:44 - [MESSAGE][PASSED] - Text '99999' is set on object 'Object Repository/Registrasi/Page_IDPhotobook/input_ Kosongi email jika tidak punya email_mat-input-3'
+
+2020-07-08 21:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1")): Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Registrasi/Register Positif/Page_Login  IDPhotobook/button_Daftar_1' is clicked on
+
+2020-07-08 21:14:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:44 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:44 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - try: null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - Files.createDirectories(SetPath): null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - if (VerifyCheck == true): null
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - else if (VerifyCheck == false): Taking screenshot successfully
+
+2020-07-08 21:14:45 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + "_Failed.png"): Taking screenshot successfully
+
+2020-07-08 21:14:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_8\\080720091445_Registration_Negatif_8_Failed.png]]
+
+2020-07-08 21:14:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:46 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("No. Whatsapp / Email telah terdaftar", false, CONTINUE_ON_FAILURE): Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:46 - [MESSAGE][PASSED] - Text 'No. Whatsapp / Email telah terdaftar' is not present on page
+
+2020-07-08 21:14:46 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nama harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:47 - [MESSAGE][PASSED] - Text 'Nama harus diisi' is not present on page
+
+2020-07-08 21:14:47 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus berupa angka", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:47 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus berupa angka' is not present on page
+
+2020-07-08 21:14:47 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Nomor WhatsApp harus diisi", false, CONTINUE_ON_FAILURE): Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:47 - [MESSAGE][PASSED] - Text 'Nomor WhatsApp harus diisi' is not present on page
+
+2020-07-08 21:14:47 - [TEST_STEP][PASSED] - VerifyCheck = verifyTextNotPresent("Format email salah", false, CONTINUE_ON_FAILURE): Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:47 - [MESSAGE][PASSED] - Text 'Format email salah' is not present on page
+
+2020-07-08 21:14:47 - [TEST_STEP][FAILED] - VerifyCheck = verifyTextNotPresent("Password minimal 6 karakter", false, CONTINUE_ON_FAILURE): Text 'Password minimal 6 karakter' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Password minimal 6 karakter' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:48 - [MESSAGE][FAILED] - Text 'Password minimal 6 karakter' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Password minimal 6 karakter' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:102)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+
+2020-07-08 21:14:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Services/SVC_Get Capture"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:48 - [TEST_CASE][PASSED] - Test Cases/Services/SVC_Get Capture: Test Cases/Services/SVC_Get Capture
+
+2020-07-08 21:14:48 - [TEST_STEP][PASSED] - delay(TimeDelay): Delayed 1 second(s)
+
+2020-07-08 21:14:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - GetPath = SetPathCapture: null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - GetPathData = GetPath + "\" + SetTestScriptID: null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - SetPath = Paths.get(GetPathData): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (Files.notExists(SetPath)): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - CapturePath = SetPath: null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - GetSubCapture = CapturePath: null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - CapturePath += "\": null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (VerifyCheck == true): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - else if (VerifyCheck == false): Taking screenshot successfully
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - takeScreenshot(CapturePath + today.format("ddMMyy") + today.format("hhmmss") + "_" + SetTestScriptID + "_Failed.png"): Taking screenshot successfully
+
+2020-07-08 21:14:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test IPB\\Result\\IDPhotoBooks\\Run_2\\Registration_Negatif_8\\080720091449_Registration_Negatif_8_Failed.png]]
+
+2020-07-08 21:14:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Services/SVC_Get Capture' successfully
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:49 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:50 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:51 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:51 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:51 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:51 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:51 - [TEST_STEP][PASSED] - if (findTestData("Registrasi/Reg_Negatif").getValue("ACTIVE", rowNum) == "Y"): null
+
+2020-07-08 21:14:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-08 21:14:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2020-07-08 21:13:24 - [TEST_CASE][FAILED] - Test Cases/Register/Register_Negatif: Test Cases/Register/Register_Negatif FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-08 21:12:50 - [TEST_SUITE][FAILED] - Registrasi: Test Cases/Register/Register_Negatif FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2020-07-08 21:12:50 - [TEST_SUITE][FAILED] - Registrasi: Test Cases/Register/Register_Negatif FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.doCall(VerifyTextNotPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword$_verifyTextNotPresent_closure1.call(VerifyTextNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1736)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at Register_Negatif.run(Register_Negatif:94)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594217569394.run(TempTestSuite1594217569394.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Nama harus diisi' is present on page 
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>
