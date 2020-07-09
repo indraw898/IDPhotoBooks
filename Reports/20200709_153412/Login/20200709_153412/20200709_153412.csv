@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 83.0.4103.116,,,2020-07-09 15:34:14,2020-07-09 15:37:31,3m - 16.872s,FAILED
+,,,,,,,
+Test Cases/Login/Login_Positif,Chrome 83.0.4103.116,,,2020-07-09 15:34:15,2020-07-09 15:34:58,43.515s,PASSED
+"SetCreateFolder = ""IDPhotoBooks""",Chrome 83.0.4103.116,,,2020-07-09 15:34:15,2020-07-09 15:34:15,0.253s,PASSED
+"SetSeparate = ""CallCreateSubFolder""",Chrome 83.0.4103.116,,,2020-07-09 15:34:15,2020-07-09 15:34:15,0.001s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Separate""), null)",Chrome 83.0.4103.116,,,2020-07-09 15:34:15,2020-07-09 15:34:16,0.953s,PASSED
+"openBrowser(findTestData(""URL/URL"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-09 15:34:16,2020-07-09 15:34:25,8.932s,PASSED
+maximizeWindow(),Chrome 83.0.4103.116,,,2020-07-09 15:34:25,2020-07-09 15:34:27,2.322s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Login/Login_Positif"").getRowNumbers(), (rowNum++)])",Chrome 83.0.4103.116,,,2020-07-09 15:34:27,2020-07-09 15:34:57,29.874s,PASSED
+closeBrowser(),Chrome 83.0.4103.116,,,2020-07-09 15:34:57,2020-07-09 15:34:58,0.714s,PASSED
+,,,,,,,
+Test Cases/Login/Login_Negatif,Chrome 83.0.4103.116,,,2020-07-09 15:34:58,2020-07-09 15:37:31,2m - 33.071s,FAILED
+"SetCreateFolder = ""IDPhotoBooks""",Chrome 83.0.4103.116,,,2020-07-09 15:34:58,2020-07-09 15:34:58,0.001s,PASSED
+"SetSeparate = ""CallCreateSubFolder""",Chrome 83.0.4103.116,,,2020-07-09 15:34:58,2020-07-09 15:34:58,0.000s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Separate""), null)",Chrome 83.0.4103.116,,,2020-07-09 15:34:58,2020-07-09 15:34:58,0.207s,PASSED
+"openBrowser(findTestData(""URL/URL"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-09 15:34:58,2020-07-09 15:35:05,6.491s,PASSED
+maximizeWindow(),Chrome 83.0.4103.116,,,2020-07-09 15:35:05,2020-07-09 15:35:07,2.236s,PASSED
+"click(findTestObject(""Login/Login Negatif/Page_Home  IDPhotobook/div_Akun""))",Chrome 83.0.4103.116,,,2020-07-09 15:35:07,2020-07-09 15:35:07,0.343s,PASSED
+"for ([rowNum = 1, rowNum <= findTestData(""Login/Login_Negatif"").getRowNumbers(), (rowNum++)])",Chrome 83.0.4103.116,,,2020-07-09 15:35:07,2020-07-09 15:37:30,2m - 22.904s,FAILED
+closeBrowser(),Chrome 83.0.4103.116,,,2020-07-09 15:37:30,2020-07-09 15:37:31,0.738s,PASSED

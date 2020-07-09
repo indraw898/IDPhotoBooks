@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Beli,Chrome 83.0.4103.116,,,2020-07-09 16:21:52,2020-07-09 16:25:25,3m - 32.880s,FAILED
+,,,,,,,
+Test Cases/Pembelian/Pembelian_Positif,Chrome 83.0.4103.116,,,2020-07-09 16:21:52,2020-07-09 16:23:57,2m - 5.604s,FAILED
+"SetCreateFolder = ""IDPhotoBooks""",Chrome 83.0.4103.116,,,2020-07-09 16:21:52,2020-07-09 16:21:52,0.154s,PASSED
+"SetSeparate = ""CallCreateSubFolder""",Chrome 83.0.4103.116,,,2020-07-09 16:21:52,2020-07-09 16:21:52,0.001s,PASSED
+"SetTestScriptID = findTestData(""Pembelian/Pembelian"").getValue(""SCRIPT ID"", 1)",Chrome 83.0.4103.116,,,2020-07-09 16:21:52,2020-07-09 16:21:53,0.434s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Separate""), null)",Chrome 83.0.4103.116,,,2020-07-09 16:21:53,2020-07-09 16:21:53,0.633s,PASSED
+"openBrowser(findTestData(""URL/URL"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-09 16:21:53,2020-07-09 16:22:01,7.199s,PASSED
+maximizeWindow(),Chrome 83.0.4103.116,,,2020-07-09 16:22:01,2020-07-09 16:22:03,2.172s,PASSED
+"click(findTestObject(""Login/Login Negatif/Page_Home  IDPhotobook/div_Akun""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:03,2020-07-09 16:22:03,0.341s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:03,2020-07-09 16:22:05,2.006s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:05,2020-07-09 16:22:07,1.801s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login Positif/Page_Login  IDPhotobook/input_Yuuk Login ke IDPhotobookcom_mat-input-0""), findTestData(""Login/Login_Positif"").getValue(""WhatsApp"", 1))",Chrome 83.0.4103.116,,,2020-07-09 16:22:07,2020-07-09 16:22:07,0.631s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login Positif/Page_Login  IDPhotobook/input_Nomor Whatsapp  Email_mat-input-1""), findTestData(""Login/Login_Positif"").getValue(""Password"", 1))",Chrome 83.0.4103.116,,,2020-07-09 16:22:07,2020-07-09 16:22:08,0.582s,PASSED
+"click(findTestObject(""Object Repository/Login/Login Positif/Page_Login  IDPhotobook/button_Masuk Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:08,2020-07-09 16:22:08,0.306s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:08,2020-07-09 16:22:11,2.241s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Akun  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:11,2020-07-09 16:22:11,0.303s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:11,2020-07-09 16:22:13,2.001s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/NewBellaSerries(1)""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:13,2020-07-09 16:22:13,0.307s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:13,2020-07-09 16:22:15,2.001s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:15,2020-07-09 16:22:16,0.317s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:16,2020-07-09 16:22:18,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/button_Lanjutkan Belanja""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:18,2020-07-09 16:22:18,0.296s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:18,2020-07-09 16:22:19,1.621s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:19,2020-07-09 16:22:20,0.295s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:20,2020-07-09 16:22:22,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Paling Laris""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:22,2020-07-09 16:22:22,0.324s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:22,2020-07-09 16:22:24,2.004s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/ElenaSeries(2)""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:24,2020-07-09 16:22:24,0.323s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:24,2020-07-09 16:22:26,2.001s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:26,2020-07-09 16:22:27,0.291s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:27,2020-07-09 16:22:29,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/button_Lanjutkan Belanja""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:29,2020-07-09 16:22:29,0.296s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:29,2020-07-09 16:22:31,1.607s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:31,2020-07-09 16:22:31,0.293s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:31,2020-07-09 16:22:33,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Dibawah 150000""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:33,2020-07-09 16:22:33,0.298s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:33,2020-07-09 16:22:35,2.001s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/Kalender Jumbo 20R (3)""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:35,2020-07-09 16:22:36,0.324s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:36,2020-07-09 16:22:38,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:38,2020-07-09 16:22:38,0.305s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:38,2020-07-09 16:22:40,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/button_Lanjutkan Belanja""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:40,2020-07-09 16:22:40,0.295s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:40,2020-07-09 16:22:42,1.605s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:42,2020-07-09 16:22:42,0.293s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:42,2020-07-09 16:22:44,2.003s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Beneran Diskon""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:44,2020-07-09 16:22:44,0.293s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:44,2020-07-09 16:22:46,2.003s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/Bronze Series (4)""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:46,2020-07-09 16:22:47,0.333s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:47,2020-07-09 16:22:49,2.003s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:49,2020-07-09 16:22:49,0.299s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:22:49,2020-07-09 16:22:51,2.001s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Bayar Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:51,2020-07-09 16:22:51,0.296s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:51,2020-07-09 16:22:55,3.559s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-09 16:22:55,2020-07-09 16:22:56,1.176s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Checkout  IDPhotobook/button_Pilih Pembayaran""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:56,2020-07-09 16:22:57,1.326s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:57,2020-07-09 16:22:59,1.604s,PASSED
+"click(findTestObject(""Pembelian/Beli_Positif/Page_Checkout  IDPhotobook/li_Bank BCA chevron_right""))",Chrome 83.0.4103.116,,,2020-07-09 16:22:59,2020-07-09 16:22:59,0.292s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:22:59,2020-07-09 16:23:01,1.610s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Checkout  IDPhotobook/span_Rp 418000_mat-expansion-indicator ng-t_51e1b7""))",Chrome 83.0.4103.116,,,2020-07-09 16:23:01,2020-07-09 16:23:01,0.293s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:23:01,2020-07-09 16:23:03,2.001s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Checkout  IDPhotobook/button_Bayar""))",Chrome 83.0.4103.116,,,2020-07-09 16:23:03,2020-07-09 16:23:03,0.305s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:23:03,2020-07-09 16:23:06,2.540s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-09 16:23:06,2020-07-09 16:23:07,0.705s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Pembayaran  IDPhotobook/button_Konfirmasi Pembayaran""))",Chrome 83.0.4103.116,,,2020-07-09 16:23:07,2020-07-09 16:23:08,1.129s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Pembayaran  IDPhotobook/button_Pilih File""))",Chrome 83.0.4103.116,,,2020-07-09 16:23:08,2020-07-09 16:23:09,1.329s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:23:09,2020-07-09 16:23:11,2.001s,PASSED
+dd(),Chrome 83.0.4103.116,,,2020-07-09 16:23:11,2020-07-09 16:23:11,0.000s,PASSED
+runTime = Runtime.getRuntime(),Chrome 83.0.4103.116,,,2020-07-09 16:23:11,2020-07-09 16:23:11,0.002s,PASSED
+process = runTime.exec(UploadResi),Chrome 83.0.4103.116,,,2020-07-09 16:23:11,2020-07-09 16:23:11,0.004s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:23:11,2020-07-09 16:23:13,2.044s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Pembayaran  IDPhotobook/button_Cek Status""))",Chrome 83.0.4103.116,,,2020-07-09 16:23:13,2020-07-09 16:23:57,44.282s,FAILED
+,,,,,,,
+Test Cases/Pembelian/Pembelian_Negatif,Chrome 83.0.4103.116,,,2020-07-09 16:23:57,2020-07-09 16:25:25,1m - 27.101s,PASSED
+"SetCreateFolder = ""IDPhotoBooks""",Chrome 83.0.4103.116,,,2020-07-09 16:23:58,2020-07-09 16:23:58,0.000s,PASSED
+"SetSeparate = ""CallCreateSubFolder""",Chrome 83.0.4103.116,,,2020-07-09 16:23:58,2020-07-09 16:23:58,0.000s,PASSED
+"SetTestScriptID = findTestData(""Pembelian/Pembelian"").getValue(""SCRIPT ID"", 2)",Chrome 83.0.4103.116,,,2020-07-09 16:23:58,2020-07-09 16:23:58,0.022s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Separate""), null)",Chrome 83.0.4103.116,,,2020-07-09 16:23:58,2020-07-09 16:23:58,0.179s,PASSED
+"openBrowser(findTestData(""URL/URL"").getValue(1, 1))",Chrome 83.0.4103.116,,,2020-07-09 16:23:58,2020-07-09 16:24:04,6.441s,PASSED
+maximizeWindow(),Chrome 83.0.4103.116,,,2020-07-09 16:24:04,2020-07-09 16:24:06,2.173s,PASSED
+"click(findTestObject(""Login/Login Negatif/Page_Home  IDPhotobook/div_Akun""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:06,2020-07-09 16:24:07,0.407s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:07,2020-07-09 16:24:09,2.002s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:24:09,2020-07-09 16:24:10,1.624s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login Positif/Page_Login  IDPhotobook/input_Yuuk Login ke IDPhotobookcom_mat-input-0""), findTestData(""Login/Login_Positif"").getValue(""WhatsApp"", 1))",Chrome 83.0.4103.116,,,2020-07-09 16:24:10,2020-07-09 16:24:11,0.587s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login Positif/Page_Login  IDPhotobook/input_Nomor Whatsapp  Email_mat-input-1""), findTestData(""Login/Login_Positif"").getValue(""Password"", 1))",Chrome 83.0.4103.116,,,2020-07-09 16:24:11,2020-07-09 16:24:12,0.570s,PASSED
+"click(findTestObject(""Object Repository/Login/Login Positif/Page_Login  IDPhotobook/button_Masuk Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:12,2020-07-09 16:24:12,0.296s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:24:12,2020-07-09 16:24:14,2.438s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Akun  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:14,2020-07-09 16:24:15,0.287s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:15,2020-07-09 16:24:17,2.005s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/NewBellaSerries(1)""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:17,2020-07-09 16:24:17,0.304s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:17,2020-07-09 16:24:19,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:19,2020-07-09 16:24:19,0.296s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:19,2020-07-09 16:24:21,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/button_Lanjutkan Belanja""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:21,2020-07-09 16:24:22,0.283s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:24:22,2020-07-09 16:24:23,1.607s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:23,2020-07-09 16:24:23,0.293s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:23,2020-07-09 16:24:25,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Paling Laris""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:25,2020-07-09 16:24:26,0.306s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:26,2020-07-09 16:24:28,2.001s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/ElenaSeries(2)""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:28,2020-07-09 16:24:28,0.341s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:28,2020-07-09 16:24:30,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:30,2020-07-09 16:24:30,0.297s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:30,2020-07-09 16:24:32,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/button_Lanjutkan Belanja""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:32,2020-07-09 16:24:33,0.277s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:24:33,2020-07-09 16:24:34,1.605s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:34,2020-07-09 16:24:35,0.300s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:35,2020-07-09 16:24:37,2.001s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Dibawah 150000""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:37,2020-07-09 16:24:37,0.313s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:37,2020-07-09 16:24:39,2.001s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/Kalender Jumbo 20R (3)""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:39,2020-07-09 16:24:39,0.341s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:39,2020-07-09 16:24:41,2.003s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:41,2020-07-09 16:24:42,0.311s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:42,2020-07-09 16:24:44,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/button_Lanjutkan Belanja""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:44,2020-07-09 16:24:44,0.285s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:24:44,2020-07-09 16:24:45,1.608s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/div_Asset 1Katalog""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:45,2020-07-09 16:24:46,0.291s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:46,2020-07-09 16:24:48,2.003s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Beneran Diskon""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:48,2020-07-09 16:24:48,0.309s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:48,2020-07-09 16:24:50,2.002s,PASSED
+"click(findTestObject(""Pembelian/Produk/Page_Katalog  IDPhotobook/Bronze Series (4)""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:50,2020-07-09 16:24:50,0.343s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:50,2020-07-09 16:24:52,2.002s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/div_Pesan Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:52,2020-07-09 16:24:53,0.293s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:53,2020-07-09 16:24:55,2.001s,PASSED
+"click(findTestObject(""Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Bayar Sekarang""))",Chrome 83.0.4103.116,,,2020-07-09 16:24:55,2020-07-09 16:24:55,0.294s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:24:55,2020-07-09 16:24:57,2.001s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:24:57,2020-07-09 16:24:59,1.611s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-09 16:24:59,2020-07-09 16:25:00,1.138s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Checkout  IDPhotobook/mat-icon_close_CheckOut""))",Chrome 83.0.4103.116,,,2020-07-09 16:25:00,2020-07-09 16:25:01,1.492s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:01,2020-07-09 16:25:03,1.604s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""))",Chrome 83.0.4103.116,,,2020-07-09 16:25:03,2020-07-09 16:25:03,0.303s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0""))",Chrome 83.0.4103.116,,,2020-07-09 16:25:03,2020-07-09 16:25:04,0.511s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:25:04,2020-07-09 16:25:06,2.002s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-09 16:25:06,2020-07-09 16:25:06,0.606s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:06,2020-07-09 16:25:08,1.603s,PASSED
+"verifyElementPresent(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""), 5, CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:08,2020-07-09 16:25:08,0.258s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""), CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:08,2020-07-09 16:25:08,0.289s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0""), CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:08,2020-07-09 16:25:09,0.498s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:25:09,2020-07-09 16:25:11,2.001s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-09 16:25:11,2020-07-09 16:25:12,0.856s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:12,2020-07-09 16:25:13,1.616s,PASSED
+"verifyElementPresent(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""), 5, CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:13,2020-07-09 16:25:14,0.253s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""), CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:14,2020-07-09 16:25:14,0.297s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0""), CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:14,2020-07-09 16:25:14,0.500s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:25:14,2020-07-09 16:25:16,2.001s,PASSED
+refresh(),Chrome 83.0.4103.116,,,2020-07-09 16:25:16,2020-07-09 16:25:17,1.056s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:17,2020-07-09 16:25:19,1.595s,PASSED
+"verifyElementPresent(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""), 5, CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:19,2020-07-09 16:25:19,0.244s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang""), CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:19,2020-07-09 16:25:20,0.294s,PASSED
+"click(findTestObject(""Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0""), CONTINUE_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:20,2020-07-09 16:25:20,0.497s,PASSED
+delay(2),Chrome 83.0.4103.116,,,2020-07-09 16:25:20,2020-07-09 16:25:22,2.000s,PASSED
+"callTestCase(findTestCase(""Services/SVC_Get Capture""), null, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:22,2020-07-09 16:25:24,1.609s,PASSED
+"verifyTextPresent(""Keranjang belanja moms masih kosong!"", false, STOP_ON_FAILURE)",Chrome 83.0.4103.116,,,2020-07-09 16:25:24,2020-07-09 16:25:24,0.252s,PASSED
+closeBrowser(),Chrome 83.0.4103.116,,,2020-07-09 16:25:24,2020-07-09 16:25:25,0.649s,PASSED

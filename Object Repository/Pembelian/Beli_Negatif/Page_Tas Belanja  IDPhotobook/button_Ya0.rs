@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//mat-dialog-container[@id='mat-dialog-0']/app-confirm-dialog/div[2]/button[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mat-dialog-0&quot;)/app-confirm-dialog[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-dialog-actions mt-32&quot;]/button[@class=&quot;mat-focus-indicator mat-raised-button mat-button-base mat-primary&quot;][count(. | //*[(text() = ' Ya ' or . = ' Ya ')]) = count(//*[(text() = ' Ya ' or . = ' Ya ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +45,7 @@
       <value> Ya </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

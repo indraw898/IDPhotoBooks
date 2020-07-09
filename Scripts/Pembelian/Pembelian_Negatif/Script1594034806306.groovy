@@ -32,7 +32,7 @@ WebUI.click(findTestObject('Login/Login Negatif/Page_Home  IDPhotobook/div_Akun'
 
 WebUI.delay(2)
 
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.setText(findTestObject('Object Repository/Login/Login Positif/Page_Login  IDPhotobook/input_Yuuk Login ke IDPhotobookcom_mat-input-0'), 
     findTestData('Login/Login_Positif').getValue('WhatsApp', 1))
 
@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Object Repository/Login/Login Positif/Page_Login  
 
 WebUI.click(findTestObject('Object Repository/Login/Login Positif/Page_Login  IDPhotobook/button_Masuk Sekarang'))
 
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 //pilih barang 1-------------------------------------------------------------------------------------------------------------------------------------------
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_Akun  IDPhotobook/div_Asset 1Katalog'))
 
@@ -57,7 +57,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/button_Lanjutkan Belanja'))
 
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 //pilih barang 2-------------------------------------------------------------------------------------------------------------------------------------------
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_Masker Non Medic  IDPhotobook/div_Asset 1Katalog'))
 
@@ -77,7 +77,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/button_Lanjutkan Belanja'))
 
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 //pilih barang 3-------------------------------------------------------------------------------------------------------------------------------------------
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_Elena Series  IDPhotobook/div_Asset 1Katalog'))
 
@@ -97,7 +97,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/button_Lanjutkan Belanja'))
 
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 //pilih barang 4-------------------------------------------------------------------------------------------------------------------------------------------
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_jamu anti corona  IDPhotobook/div_Asset 1Katalog'))
 
@@ -117,35 +117,45 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Pembelian/Beli_Positif/Page_Katalog  IDPhotobook/button_Bayar Sekarang'))
 
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.refresh()
 
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Checkout  IDPhotobook/mat-icon_close_CheckOut'))
 
-//AKUN SUDAH SET ALAMAT
-//PEMBAYARAN-------------------------------------------------------------------------------------------------------------------------------------------
-//WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+//-------------------------------------------------------------------------------------------------------------------------------------------
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'))
 
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0'))
-
+WebUI.delay(2)
+WebUI.refresh()
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementPresent(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0'), FailureHandling.CONTINUE_ON_FAILURE)
-
+WebUI.delay(2)
+WebUI.refresh()
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementPresent(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0'), FailureHandling.CONTINUE_ON_FAILURE)
-
+WebUI.delay(2)
+WebUI.refresh()
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementPresent(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2)
+//WebUI.refresh()
+//WebUI.verifyElementPresent(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0'), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), 5, FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'), FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/button_Ya0'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Services/SVC_Get Capture'), null, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyTextPresent('Keranjang belanja moms masih kosong!', false, FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.click(findTestObject('Pembelian/Beli_Negatif/Page_Tas Belanja  IDPhotobook/delete_items_keranjang'))
 
 WebUI.closeBrowser()
 
